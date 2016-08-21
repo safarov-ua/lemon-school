@@ -1,0 +1,18 @@
+span{
+	text-decoration: underline;
+}
+img{
+	border: 4px double magenta;
+	width: 300px;
+}
+ol, 
+a{
+	font-size: 19px;
+	color: darkgreen;
+	text-align: left;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
