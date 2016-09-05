@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 800px;
+}
+.clearfix{
+    clear:both;
+}
+header{
+    height:80px;
+    background-color: purple;
+}
+footer{
+    background-color: pink;
+    height: 80px;
+}
+.container3 {
+    float:left;
+    width:100%;
+    background:red;
+    overflow:hidden;
+    position:relative;
+}
+.container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position:relative;
+    right:30%;
+}
+.row {
+    float:left;
+    width:100%;
+    background:green;
+    position:relative;
+    right:40%;
+}
+.aside1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+.content {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+.aside2 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+

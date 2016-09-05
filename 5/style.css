@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Header*/
+header{
+	height:100px;
+	background-color: lightgray;
+	font-size: 28px;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+.header li a:hover{
+	color:brown;
+}
+ul.header li{
+	display: inline-block;
+	margin-top:20px;
+	margin-left:250px;
+	border:2px solid black;
+	padding: 10px;
+}
+/*content*/
+h2{
+	font-size: 32px;
+	font-style: italic;
+	color:brown;
+	padding-left: 10px;
+}
+.about{
+	background-color: grey;
+	height: 200px;
+}
+.about p{
+	font-size: 25px;
+	padding-left: 200px;
+
+}
+.about img{
+	float:left;
+	height:200px;
+}
+.portfolio{
+	background-color: lightgray;
+}
+.photo{
+	box-shadow: 0 0 25px 0 gray;
+	float: left;
+	margin:10px;
+	opacity: 0.8;
+}
+.photo:hover{
+	opacity: 1;
+}
+.clearfix{
+	clear: both;
+}
+.glasses,
+.other{
+	width: 400px;
+	height: 266px;
+}
+.under,
+.shoes
+{
+	width: 400px;
+	height: 400px;
+}
+.contacts{
+	text-align: center;
+	color:brown;
+	background-color: grey;
+	font-size: 20px;
+}
+/*footer*/
+footer{
+height:60px;
+background: lightgrey;
+text-align: center;
+padding:10px;
+}
+ul.footer li{
+	display: inline-block;
+	padding:15px;
+	font-size: 20px;
+}
+.footer li a:hover{
+	text-decoration: underline;
+	color:blue;
+}
+
