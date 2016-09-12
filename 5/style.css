@@ -29,6 +29,7 @@ h2{
 	font-style: italic;
 	color:brown;
 	padding-left: 10px;
+	clear:both;
 }
 .about{
 	background-color: grey;
